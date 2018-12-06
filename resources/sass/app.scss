@@ -1,0 +1,26 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Rafa
+body{background-color: #ffffff};
+.nav-bar{
+	background-color: #282A36;
+	#acmeLogo{
+		padding: 1rem;
+	}
+}
+.container{
+	.title{
+		margin-top: 1rem;
+	}
+	.content{
+		padding-bottom: 1rem;
+	}
+}
